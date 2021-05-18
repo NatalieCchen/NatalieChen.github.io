@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>index</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <header>
+            <div id="logo">Lark</div>
+            <ul>
+                <li class="active"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="What is Lark.html">What is Lark?</a></li>
+                <li><a href="customer.html">Customers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <h2>Lark-Seamless Connection</h2></br><p>We believe your work is shaped by the tools you use. Lark integrates messaging, video conferencing, schedule management, collaborative documents, cloud storage, email, and workflow applications to provide a seamless collaboration experience on all your devices. </p>
+        </div>
+        <style>
+           .content{
+                color:transparent;
+                position: relative;
+                max-width: 950px;
+                text-align: center;
+                z-index: 1;
+                top: 295px;
+                left: 290px;
+                background: linear-gradient(to right, #210c42,#4a06b809);
+                -webkit-background-clip: text;
+                background-size: 130%;
+                background-repeat: no-repeat;
+                animation: move 3s linear infinite;
+                }
+            .content h2{
+                font-size: 4em;
+            }
+
+            .content p{
+                font-size: 1.3em;
+            }
+            
+            @keyframes move{
+                0%{
+                    background-position：-500%;
+                }
+
+                100%{
+                    background-position：500%;
+                }                
+            }
+        </style>      
+    </body>
+</html>
